@@ -1,0 +1,107 @@
+/* font-family: "Raleway", sans-serif; */
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 5% 25% 5%;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p, li {
+    font-size: 14px;
+}
+
+a {
+    color: #b50838;
+}
+
+.section {
+    margin-right: 65%;
+    border-bottom: 2px dotted #cccccc;
+    color: #b50838;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h6.section {
+    margin-bottom: 0;
+    border: none;
+    font-size: 14px;
+
+}
+
+.price {
+    font-style: italic;
+}
+
+.shaded {
+    background-color: #e6ecec;
+    padding: 0 10px;
+    border-width: 2px;
+    border-style: dotted dotted dotted;
+    border-color: #cccccc;
+}
+
+.option {
+    color: #999999;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+#from {
+    color: #777777;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#logo {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto 0;
+}
+
+#intro {
+    color: #83a2a3;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+}
+
+#intro h2 {
+    margin: 5% 20% 2%;
+    border-top: 2px dotted #cccccc;
+    border-bottom: 2px dotted #cccccc;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+#intro p {
+    margin: 0 10% auto;
+}
+
+#sides h5 {
+    margin: 5px auto;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#space {
+    float: right;
+    max-width: 325px;
+}
+
+#footnotes {
+    margin: 5% auto;
+}
+
+#footnotes p {
+    margin: 10px 50% 10px auto;
+    color: #83a2a3;
+}
+
+#footnotes #book {
+    font-weight: bold;
+    color: #000000;
+}
