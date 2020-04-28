@@ -89,6 +89,22 @@ img#ridership {
     color: #c9e4ca;
 }
 
+.story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.routes {
+    display: flex;
+}
+
+.financials {
+    display: flex;
+}
+
 ul.index li {
     display: inline-flex;
     justify-content: center;
