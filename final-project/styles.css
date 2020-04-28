@@ -37,41 +37,20 @@ p strong {
     font-family: 'Arsenal', sans-serif;
 }
 
-#divs div {
-    height: 100px;
-    width: 100px;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+img#ridership {
+    max-width: 600px;
 }
 
-#tea-green {
-    background-color: #c9e4ca;
-}
-
-#dark-sea-green {
-    background-color: #87BBA2;
-}
-
-#steel-teal {
-    background-color: #55828B;
-}
-
-#deep-space-sparkle {
-    background-color: #3B6064;
-}
-
-#charcoal {
-    background-color: #364958;
-    border-bottom: 1px solid black;
+#check-it {
+    margin-bottom: 5px;
 }
 
 #exp, #edsk {
     margin: 5px 50px;
 }
 
-.stories h1 {
-    font-size: 20px;
+#about-photo {
+    width: 300px;
 }
 
 .nav {
@@ -110,6 +89,14 @@ p strong {
     color: #c9e4ca;
 }
 
+ul.index li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+}
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -121,6 +108,10 @@ p strong {
 
 .banner img {
     height: 300px;
+}
+
+ul.social {
+    margin-left: -3%;
 }
 
 .social li {
@@ -135,8 +126,44 @@ p strong {
     align-items: center;
 }
 
+.content.about {
+    padding: 0 5%;
+}
+
+
 p#blurb {
     margin: 10px;
+}
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.stories h1 {
+    font-size: 20px;
+    font-style: normal;
+    border-bottom: none;
+}
+
+.stories a {
+    text-decoration: none;
+}
+
+.stories img {
+    max-width: 360px;
+    margin-right: 2%;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    width: 100%;
 }
 
 .sections {
