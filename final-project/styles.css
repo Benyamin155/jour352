@@ -99,10 +99,12 @@ img#ridership {
 
 .routes {
     display: flex;
+    overflow: auto;
 }
 
 .financials {
     display: flex;
+    overflow: auto;
 }
 
 ul.index li {
