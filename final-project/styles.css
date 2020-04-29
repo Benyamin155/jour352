@@ -46,8 +46,9 @@ p {
     font-size: 20px;
 }
 
-#main-photo {
-    max-width: 600px;
+h3#footer {
+    color: color: #324376;
+    font-style: normal;
 }
 
 .routes {
@@ -56,18 +57,13 @@ p {
     align-items: center;
 }
 
-.routes img {
-    max-width: 800px;
-    margin: 1%;
-}
-
 .financials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.financials img {
+.routes img, .financials img {
     max-width: 600px;
     margin: 1%;
 }
