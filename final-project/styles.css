@@ -1,15 +1,21 @@
-.story {
+body {
+    background: #f5dd90;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
+}
+
+#old-standard {
+    font-family: 'Old Standard TT', serif;
+}
+
+#arsenal {
+    font-family: 'Arsenal', sans-serif;
 }
 
 .routes {
     display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .financials {
