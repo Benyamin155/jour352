@@ -83,6 +83,6 @@ p {
 }
 
 .routes img, .financials img {
-    max-width: 600px;
+    min-width: 300px;
     margin: 1%;
 }
