@@ -1,7 +1,20 @@
 body {
-    background: #f5dd90;
+    background-color: #f5dd90;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Arsenal', sans-serif;
+    font-style: italic;
+    font-size: 20px;
 }
 
 #old-standard {
