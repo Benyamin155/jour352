@@ -70,17 +70,15 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .financials {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .routes img, .financials img {
-    width: 600px;
+    max-width: 30%;
     margin: 1%;
 }
