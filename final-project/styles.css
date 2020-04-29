@@ -72,18 +72,13 @@ p {
     align-items: center;
 }
 
-.routes div {
-    max-width: 45%;
-    margin: 1%;
-}
-
 .financials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.financials img {
+.routes img, .financials img {
     max-width: 45%;
     margin: 1%;
 }
