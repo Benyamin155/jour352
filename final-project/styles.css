@@ -46,9 +46,20 @@ p {
     font-size: 20px;
 }
 
-h3#footer {
+#footer {
     color: color: #324376;
     font-style: normal;
+}
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-caption p {
+    font-size: 12px;
 }
 
 .routes {
