@@ -48,13 +48,18 @@ p {
     align-items: center;
 }
 
+.routes img {
+    max-width: 800px;
+    margin: 1%;
+}
+
 .financials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.routes img, .financials img {
-    max-width: 400px;
+.financials img {
+    max-width: 600px;
     margin: 1%;
 }
