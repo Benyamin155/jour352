@@ -46,8 +46,12 @@ p {
     font-size: 20px;
 }
 
+#main-photo {
+    max-width: 80%;
+}
+
 #footer {
-    color: color: #324376;
+    color: #324376;
     font-style: normal;
 }
 
@@ -66,12 +70,16 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 80%;
+    flex-wrap: wrap;
 }
 
 .financials {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 80%;
+    flex-wrap: wrap;
 }
 
 .routes img, .financials img {
