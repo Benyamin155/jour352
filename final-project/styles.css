@@ -6,14 +6,25 @@ body {
     align-items: center;
 }
 
-h1 {
+h1, h3, p {
+    color: #2e3532;
+}
+
+h1, h3 {
     font-family: 'Arsenal', sans-serif;
+}
+
+h1 {
     font-size: 32px;
 }
 
 h3 {
-    font-family: 'Arsenal', sans-serif;
     font-style: italic;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
     font-size: 20px;
 }
 
@@ -31,9 +42,18 @@ h3 {
     align-items: center;
 }
 
+.routes img {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
 .financials {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.financials img {
+    max-width: 300px;
 }
