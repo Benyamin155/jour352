@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5%;
 }
 
 h1, h3, p {
@@ -42,9 +43,8 @@ p {
     align-items: center;
 }
 
-.routes img {
-    margin-right: 1%;
-    margin-left: 1%;
+.routes iframe {
+    margin: 1%;
 }
 
 .financials {
@@ -56,4 +56,5 @@ p {
 
 .financials img {
     max-width: 300px;
+    margin: 1%;
 }
