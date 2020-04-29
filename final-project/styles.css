@@ -72,7 +72,7 @@ p {
     align-items: center;
 }
 
-.routes #ridership, .routes .image-caption {
+.routes .image-caption {
     max-width: 45%;
     margin: 1%;
 }
