@@ -72,13 +72,18 @@ p {
     align-items: center;
 }
 
+.routes #ridership, .routes .image-caption {
+    max-width: 45%;
+    margin: 1%;
+}
+
 .financials {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.routes img, .financials img {
+.financials img {
     max-width: 45%;
     margin: 1%;
 }
